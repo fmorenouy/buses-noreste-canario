@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+header{
+    background-color: rgb(40, 0, 143);
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+}
+h1 {
+    color: white;
+    font-size: 2.5em;
+    margin-right: 60px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: row;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+nav li {
+    margin: 0 15px;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: row;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+nav a{
+    color: white;
+    flex-direction: row;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+header li a:hover {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+html, body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.introyquienessomos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+    margin: 20px 0;
+}
+.selectores {
+    display: flex;
+    margin: 20px 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.selectores div a {
+    margin: 10px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+.selectores-mini {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.selectores-mini div a {
+    margin: 10px;
+    padding: 10px;
+}
+.centro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.centrofotos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.texto-intro {
+    text-align: justify;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    max-width: 600px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+}
+.texto-intro h2 {
+    color: rgb(40, 0, 143);
+    text-align: center;
+    font-size: 2em;
+}
+.texto-intro p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+.texto-horarios {
+    text-align: justify;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    max-width: 950px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+}
+table {
+   border: 1px solid rgb(40, 0, 143);
+   border-radius: 5px;
+}
+table, th, td {
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(40, 0, 143);
+}
+h2 {
+    color: rgb(40, 0, 143);
+    font-size: 2em;
+}
+h3 {
+    color: rgb(40, 0, 143);
+}
+img {
+    border-radius: 20px;
+    margin: 5px;
+}
+footer {
+    background-color: rgb(40, 0, 143);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
